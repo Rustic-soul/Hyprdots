@@ -26,43 +26,38 @@ button {
 
 button:focus {
     background-color: @wb-act-bg;
-    background-size: 30%;
-}
-
-button:hover {
-    background-color: @wb-hvr-bg;
     background-size: 40%;
     border-radius: ${active_rad}px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
 }
 
-button:hover#lock {
+button:focus#lock {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px ${mgn}px;
 }
 
-button:hover#logout {
+button:focus#logout {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px 0px;
 }
 
-button:hover#suspend {
+button:focus#suspend {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px 0px;
 }
 
-button:hover#shutdown {
+button:focus#shutdown {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px 0px;
 }
 
-button:hover#hibernate {
+button:focus#hibernate {
     border-radius: ${active_rad}px;
     margin : ${hvr}px 0px ${hvr}px 0px;
 }
 
-button:hover#reboot {
+button:focus#reboot {
     border-radius: ${active_rad}px;
     margin : ${hvr}px ${mgn}px ${hvr}px 0px;
 }

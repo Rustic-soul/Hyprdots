@@ -19,9 +19,10 @@ b_height=`grep '^1|' $conf_ctl | cut -d '|' -f 2`
 
 if [ -z $b_height ] || [ "$b_height" == "0" ]; then
     y_monres=`cat /sys/class/drm/*/modes | head -1 | cut -d 'x' -f 2`
-    b_height=$(( y_monres*3/100 ))
+    b_height=$(( y_monres*4/100 ))
 fi
 
+b_height=40
 
 # calculate values based on height
 

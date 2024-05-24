@@ -37,7 +37,7 @@ def format_history(history):
     formatted_history = {
         "text": str(count),
         "alt": alt,
-        "tooltip": '\n '.join(tooltip_click) + '\n\n ' + '\n '.join(tooltip),
+        "tooltip": '\n '.join(tooltip),
         "class": alt
     }
     return formatted_history
