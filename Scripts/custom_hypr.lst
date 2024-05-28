@@ -81,6 +81,11 @@ hyde-cli-git                                           # cli tool to manage hyde
 # --------------------------------------------------- // My application
 telegram-desktop
 tree-sitter-cli
+ttf-joypixels
+noto-fonts-emoji
+clapper
+discord
+portproton
 bat
 duf
 fd 
